@@ -9,6 +9,7 @@ import Signin from './signin'
 import { NextAuth } from 'next-auth/client'
 import Cookies from 'universal-cookie'
 import Package from '../package'
+import { PageTransition } from 'next-page-transitions'
 import Styles from '../css/index.scss'
 
 export default class extends React.Component {
@@ -70,22 +71,22 @@ export default class extends React.Component {
           <div className="nojs-navbar">
             <Nav navbar>
                 <div className="nav-item">
-                <Link prefetch href="/examples/authentication"><a href="/" className="nav-link">Главная</a></Link>
+                <Link prefetch href="/"><a href="/" className="nav-link">Главная</a></Link>
                 </div>
                 <div className="nav-item">
-                <Link prefetch href="/examples/async"><a href="/examples/async" className="nav-link">Агентство</a></Link>
+                <Link prefetch href="/examples/agency"><a href="/examples/agency" className="nav-link">Агентство</a></Link>
                 </div>
                 <div className="nav-item">
                 <Link prefetch href="/examples/styling"><a href="/examples/styling" className="nav-link">Наши услуги</a></Link>
                 </div>
                 <div className="nav-item">
-                <Link prefetch href="/examples/authentication"><a href="/examples/authentication" className="nav-link">Портфолио</a></Link>
+                <Link prefetch href="/examples/portfolio"><a href="/examples/portfolio" className="nav-link">Портфолио</a></Link>
                 </div>
                 <div className="nav-item">
-                <Link prefetch href="/examples/authentication"><a href="/examples/authentication" className="nav-link">Вакансии</a></Link>
+                <Link prefetch href="/examples/vacancy"><a href="/examples/vacancy" className="nav-link">Вакансии</a></Link>
                 </div>
                 <div className="nav-item">
-                <Link prefetch href="/examples/authentication"><a href="/examples/authentication" className="nav-link">Контакты</a></Link>
+                <Link prefetch href="/examples/contacts"><a href="/examples/contacts" className="nav-link">Контакты</a></Link>
                 </div>
             </Nav>
             <UserMenu session={this.props.session} toggleModal={this.toggleModal} signinBtn={this.props.signinBtn}/>
@@ -120,26 +121,6 @@ export class MainBody extends React.Component {
           <Row>
             <Col xs="12" md="9" lg="10">
               {this.props.children}
-            </Col>
-            <Col xs="12" md="3" lg="2" style={{paddingTop: '1em'}}>
-              <h5 className="text-muted text-uppercase">Examples</h5>
-              <ListGroup>
-                <ListGroupItem>
-                  <Link prefetch href="/examples/authentication"><a href="/examples/authentication" className="d-block">Auth</a></Link>
-                </ListGroupItem>
-                <ListGroupItem>
-                    <Link prefetch href="/examples/async"><a href="/examples/async" className="d-block">Async</a></Link>
-                </ListGroupItem>
-                <ListGroupItem>
-                  <Link prefetch href="/examples/layout"><a href="/examples/layout" className="d-block">Layout</a></Link>
-                </ListGroupItem>
-                <ListGroupItem>
-                  <Link prefetch href="/examples/routing"><a href="/examples/routing" className="d-block">Routing</a></Link>
-                </ListGroupItem>
-                <ListGroupItem>
-                    <Link prefetch href="/examples/styling"><a href="/examples/styling" className="d-block">Styling</a></Link>
-                </ListGroupItem>
-              </ListGroup>
             </Col>
           </Row>
         </Container>
