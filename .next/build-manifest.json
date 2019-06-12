@@ -11,11 +11,15 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
+    "/index": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
     "/examples/agency": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/examples/styling": [
+    "/": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]
