@@ -342,14 +342,14 @@ function (_React$Component) {
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
         prefetch: true,
-        href: "/examples/styling",
+        href: "/examples/service",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 80
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-        href: "/examples/styling",
+        href: "/examples/service",
         className: "nav-link",
         __source: {
           fileName: _jsxFileName,
@@ -36121,7 +36121,7 @@ function (_Page) {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
@@ -36146,5 +36146,5 @@ module.exports = dll_669f0732a7e04673e1dc;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]));;
+},[[4,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=index.js.map

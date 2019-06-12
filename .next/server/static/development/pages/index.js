@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -437,14 +437,14 @@ function (_React$Component) {
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
         prefetch: true,
-        href: "/examples/styling",
+        href: "/examples/service",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 80
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-        href: "/examples/styling",
+        href: "/examples/service",
         className: "nav-link",
         __source: {
           fileName: _jsxFileName,
@@ -1511,7 +1511,7 @@ function (_Page) {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

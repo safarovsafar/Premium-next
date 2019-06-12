@@ -77,7 +77,7 @@ export default class extends React.Component {
                 <Link prefetch href="/examples/agency"><a href="/examples/agency" className="nav-link">Агентство</a></Link>
                 </div>
                 <div className="nav-item">
-                <Link prefetch href="/examples/styling"><a href="/examples/styling" className="nav-link">Наши услуги</a></Link>
+                <Link prefetch href="/examples/service"><a href="/examples/service" className="nav-link">Наши услуги</a></Link>
                 </div>
                 <div className="nav-item">
                 <Link prefetch href="/examples/portfolio"><a href="/examples/portfolio" className="nav-link">Портфолио</a></Link>

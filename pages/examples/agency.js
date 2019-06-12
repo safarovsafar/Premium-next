@@ -7,7 +7,7 @@ export default class extends Page {
   render() {
     return (
       <Layout {...this.props}>
-        <h1 className="display-3">Authentication</h1>
+        <h1 className="display-3">Агенство</h1>
         <div className="agency">
         </div>
       </Layout>

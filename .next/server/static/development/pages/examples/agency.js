@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -437,14 +437,14 @@ function (_React$Component) {
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
         prefetch: true,
-        href: "/examples/styling",
+        href: "/examples/service",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 80
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-        href: "/examples/styling",
+        href: "/examples/service",
         className: "nav-link",
         __source: {
           fileName: _jsxFileName,
@@ -1505,7 +1505,7 @@ function (_Page) {
           lineNumber: 10
         },
         __self: this
-      }, "Authentication"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "\u0410\u0433\u0435\u043D\u0441\u0442\u0432\u043E"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "agency",
         __source: {
           fileName: _jsxFileName,
@@ -1523,7 +1523,7 @@ function (_Page) {
 
 /***/ }),
 
-/***/ 4:
+/***/ 5:
 /*!****************************************!*\
   !*** multi ./pages/examples/agency.js ***!
   \****************************************/

@@ -5,7 +5,7 @@ export default class extends Page {
   render() {
     return (
       <Layout {...this.props}>
-        <h1 className="display-2">Contacts</h1>
+        <h1 className="display-2">Контакты</h1>
       </Layout>
     )
   }
