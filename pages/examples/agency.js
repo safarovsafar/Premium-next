@@ -9,6 +9,7 @@ export default class extends Page {
       <Layout {...this.props}>
         <h1 className="display-3">Агенство</h1>
         <div className="agency">
+        <h1 className="display-5 center">Поисковый маркетинг</h1>
         </div>
       </Layout>
     )

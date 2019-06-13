@@ -119,7 +119,7 @@ export class MainBody extends React.Component {
       return (
         <Container fluid={this.props.fluid} style={{marginTop: '1em'}}>
           <Row>
-            <Col xs="12" md="9" lg="10">
+            <Col>
               {this.props.children}
             </Col>
           </Row>
