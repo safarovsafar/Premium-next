@@ -86,7 +86,49 @@ function (_Page) {
           lineNumber: 12
         },
         __self: this
-      }, "\u041F\u043E\u0438\u0441\u043A\u043E\u0432\u044B\u0439 \u043C\u0430\u0440\u043A\u0435\u0442\u0438\u043D\u0433")));
+      }, "\u041F\u043E\u0438\u0441\u043A\u043E\u0432\u044B\u0439 \u043C\u0430\u0440\u043A\u0435\u0442\u0438\u043D\u0433")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Card, {
+        style: {
+          width: '18rem'
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Card.Img, {
+        variant: "top",
+        src: "holder.js/100px180",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 15
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Card.Body, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Card.Title, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17
+        },
+        __self: this
+      }, "Card Title"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Card.Text, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18
+        },
+        __self: this
+      }, "Some quick example text to build on the card title and make up the bulk of the card's content."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Button, {
+        variant: "primary",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22
+        },
+        __self: this
+      }, "Go somewhere"))));
     }
   }]);
 
@@ -117,4 +159,4 @@ function (_Page) {
 /***/ })
 
 })
-//# sourceMappingURL=agency.js.a56ff8a31839c50a4093.hot-update.js.map
+//# sourceMappingURL=agency.js.e707d7ec53bee523896b.hot-update.js.map
