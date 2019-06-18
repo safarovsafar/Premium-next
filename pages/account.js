@@ -1,4 +1,4 @@
-import React from 'react'
+cimport React from 'react'
 import Router from 'next/router'
 import Link from 'next/link'
 import fetch from 'isomorphic-fetch'
